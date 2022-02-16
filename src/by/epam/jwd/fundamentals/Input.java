@@ -3,13 +3,13 @@ package by.epam.jwd.fundamentals;
 import java.util.Scanner;
 
 public class Input {
-    @SuppressWarnings
+    @SuppressWarnings("unchecked")
     public int inputInteger() {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         return number;
     }
-    @SuppressWarnings
+    @SuppressWarnings("unchecked")
     public double inputDouble() {
         Scanner scanner = new Scanner(System.in);
         double number = scanner.nextDouble();
