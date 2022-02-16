@@ -3,12 +3,13 @@ package by.epam.jwd.fundamentals;
 import java.util.Scanner;
 
 public class Input {
+    @SuppressWarnings
     public int inputInteger() {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         return number;
     }
-
+    @SuppressWarnings
     public double inputDouble() {
         Scanner scanner = new Scanner(System.in);
         double number = scanner.nextDouble();
