@@ -9,6 +9,7 @@ public class Input {
         int number = scanner.nextInt();
         return number;
     }
+    
     @SuppressWarnings("unchecked")
     public double inputDouble() {
         Scanner scanner = new Scanner(System.in);
